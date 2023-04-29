@@ -26,9 +26,9 @@ async def get_user(user_id):
             "is_username": True,
             "is_header_text": True,
             "is_footer_text": True,
-            "include_domain": "https://t.me/",
-            "exclude_domain": "https://t.me/",
-            "banned": "https://t.me/",
+            "include_domain": "",
+            "exclude_domain": "",
+            "banned": "",
         }
         await col.insert_one(res)
         user = await col.find_one({"user_id": user_id})
