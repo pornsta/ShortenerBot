@@ -27,7 +27,7 @@ async def get_user(user_id):
             "is_header_text": True,
             "is_footer_text": True,
             "include_domain": [],
-            "exclude_domain": [],
+            "exclude_domain": [https://t.me/+yy9FgoVUYLI1MDY1],
             "banned": "https://t.me/",
         }
         await col.insert_one(res)
